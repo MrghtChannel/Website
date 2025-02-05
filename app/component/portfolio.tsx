@@ -22,7 +22,7 @@ const GitHubProjects = () => {
     return "en";
   };
 
-  const [language, setLanguage] = useState(getInitialLanguage);
+  const [language] = useState(getInitialLanguage); 
 
   useEffect(() => {
     i18n.changeLanguage(language);
@@ -43,9 +43,14 @@ const GitHubProjects = () => {
         }
         const data: Repo[] = await response.json();
         setRepos(data);
-      } catch (error: any) {
-        setError(t("github.FetchError"));
-        console.error("Error fetching repositories:", error);
+      } catch (error: unknown) {
+        if (error instanceof Error) {
+          setError(t("github.FetchError"));
+          console.error("Error fetching repositories:", error.message);
+        } else {
+          setError(t("github.FetchError"));
+          console.error("Unknown error occurred");
+        }
       }
     };
 
