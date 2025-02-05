@@ -1,0 +1,47 @@
+{
+  "navbar": {
+    "home": "Strona główna",
+    "services": "Usługi",
+    "about": "O mnie",
+    "projects": "Projekty",
+    "blogs": "Blog",
+    "testimonials": "Opinie",
+    "contactMe": "Skontaktuj się"
+  },
+  "about_me": {
+    "title": "O mnie",
+    "intro": "To ja",
+    "description": "Cześć! Jestem programistą Full-Stack. Mam doświadczenie w tworzeniu botów dla Telegrama i Discorda, a także w budowie backendu i frontendu dla różnych projektów. Pracuję i pracowałem z: Języki programowania: PHP, Java, Python, JavaScript, TypeScript, Lua, C# Frameworki i technologie: Laravel, Vite.js, Next.js, React, Node.js Bazy danych: MySQL, PostgreSQL, MongoDB i inne Narzędzia: Git Wspieram open source i zawsze jestem otwarty na nowe wyzwania i ciekawe projekty! 🚀"
+  },
+  "technologies": {
+    "languages": ["PHP", "Java", "Python", "JavaScript", "TypeScript", "Lua", "C#"],
+    "frameworks": ["Laravel", "Vite.js", "Next.js", "React", "Node.js"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB"],
+    "tools": ["Git"]
+  },
+  "hero": {
+    "title": "Przewiń w dół"
+  },
+  "Footer": {
+    "About": "O nas",
+    "Privacy Policy": "Polityka prywatności",
+    "Licensing": "Licencjonowanie",
+    "Contact": "Kontakt",
+    "All Rights Reserved": "Wszelkie prawa zastrzeżone"
+  },
+  "github": {
+    "ExploreProjects": "Odkryj moje projekty na GitHubie",
+    "Repositories": "Repozytoria GitHub",
+    "CheckRepos": "Zobacz repozytoria, nad którymi pracowałem i do których się przyczyniłem.",
+    "NoDescription": "Brak opisu"
+  },
+  "contact": {
+    "Contact": "Kontakt",
+    "HelpCenter": "Centrum pomocy",
+    "SpeakWithUs": "Zadzwoń do nas",
+    "ChatWithUs": "Porozmawiaj z nami",
+    "EmailUsNow": "Napisz do nas",
+    "GotAQuestion": "Masz pytanie? Mamy odpowiedź.",
+    "TechnicalIssue": "Jeśli masz pytanie, skontaktuj się z nami."
+  }
+}

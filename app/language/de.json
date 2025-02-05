@@ -1,0 +1,47 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "blogs": "Blog",
+    "testimonials": "Bewertungen",
+    "contactMe": "Kontaktieren Sie mich"
+  },
+  "about_me": {
+    "title": "Über mich",
+    "intro": "Das bin ich",
+    "description": "Hallo! Ich bin ein Full-Stack-Entwickler. Ich habe Erfahrung in der Entwicklung von Telegram- und Discord-Bots sowie in der Erstellung von Backends und Frontends für verschiedene Projekte. Ich arbeite und habe gearbeitet mit: Programmiersprachen: PHP, Java, Python, JavaScript, TypeScript, Lua, C# Frameworks und Technologien: Laravel, Vite.js, Next.js, React, Node.js Datenbanken: MySQL, PostgreSQL, MongoDB und andere Tools: Git Ich unterstütze Open Source und bin immer offen für neue Herausforderungen und spannende Projekte! 🚀"
+  },
+  "technologies": {
+    "languages": ["PHP", "Java", "Python", "JavaScript", "TypeScript", "Lua", "C#"],
+    "frameworks": ["Laravel", "Vite.js", "Next.js", "React", "Node.js"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB"],
+    "tools": ["Git"]
+  },
+  "hero": {
+    "title": "Scrollen Sie nach unten"
+  },
+  "Footer": {
+    "About": "Über uns",
+    "Privacy Policy": "Datenschutzrichtlinie",
+    "Licensing": "Lizenzierung",
+    "Contact": "Kontakt",
+    "All Rights Reserved": "Alle Rechte vorbehalten"
+  },
+  "github": {
+    "ExploreProjects": "Entdecken Sie meine Projekte auf GitHub",
+    "Repositories": "GitHub-Repositories",
+    "CheckRepos": "Sehen Sie sich die Repositories an, an denen ich gearbeitet habe und zu denen ich beigetragen habe.",
+    "NoDescription": "Keine Beschreibung"
+  },
+  "contact": {
+    "Contact": "Kontakt",
+    "HelpCenter": "Hilfe-Center",
+    "SpeakWithUs": "Rufen Sie uns an",
+    "ChatWithUs": "Chatten Sie mit uns",
+    "EmailUsNow": "Schreiben Sie uns eine E-Mail",
+    "GotAQuestion": "Haben Sie eine Frage? Wir haben eine Antwort.",
+    "TechnicalIssue": "Wenn Sie eine Frage haben, kontaktieren Sie uns."
+  }
+}
