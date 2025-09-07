@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "blog": "Blog",
+    "about": "O mnie",
+    "contact": "Kontakt"
+  },
+  "social": {
+    "title": "Moje media społecznościowe",
+    "description": "Będę wdzięczny, jeśli zaobserwujesz. Dziękuję!",
+    "twitter": "Śledź moje najnowsze wiadomości i ogłoszenia na Twitterze.",
+    "telegram": "Dołącz do mojego kanału na Telegramie, aby otrzymywać szybkie aktualizacje.",
+    "facebook": "Bądź w kontakcie ze mną na Facebooku.",
+    "github": "Obserwuj moje projekty na GitHubie.",
+    "reddit": "Dołącz do dyskusji na Reddicie.",
+    "instagram": "Śledź moją wizualną podróż na Instagramie.",
+    "bluesky": "Skontaktuj się ze mną na Bluesky.",
+    "threads": "Weź udział w rozmowach na Threads.",
+    "discord": "Dołącz do mojego serwera Discord i rozmawiaj z innymi.",
+    "mastodon": "Znajdź mnie na Mastodonie.",
+    "twitch": "Oglądaj moje transmisje na żywo na Twitchu.",
+    "tiktok": "Oglądaj moje krótkie filmy na TikToku."
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "description": "Jesteśmy dostępni dla pytań, opinii lub możliwości współpracy. Daj nam znać, jak możemy pomóc!",
+    "details": {
+      "discord": "Discord:",
+      "email": "E-mail:",
+      "steam": "Steam:"
+    },
+    "form": {
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "E-mail",
+      "subject": "Temat",
+      "message": "Wpisz swoją wiadomość tutaj.",
+      "send": "Wyślij wiadomość",
+      "messagePlaceholder": "Wpisz swoją wiadomość tutaj."
+    },
+    "footer": {
+      "about": "O nas",
+      "contact": "Kontakt",
+      "blog": "Blog",
+      "help": "Pomoc"
+    }
+  }
+}

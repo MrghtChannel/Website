@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "blog": "Blog",
+    "about": "Über mich",
+    "contact": "Kontakt"
+  },
+  "social": {
+    "title": "Meine sozialen Netzwerke",
+    "description": "Ich würde mich freuen, wenn Sie mir folgen. Vielen Dank!",
+    "twitter": "Folgen Sie meinen neuesten Nachrichten und Ankündigungen auf Twitter.",
+    "telegram": "Treten Sie meinem Telegram-Kanal für schnelle Updates bei.",
+    "facebook": "Bleiben Sie mit mir auf Facebook in Kontakt.",
+    "github": "Folgen Sie meinen Projekten auf GitHub.",
+    "reddit": "Beteiligen Sie sich an Diskussionen auf Reddit.",
+    "instagram": "Verfolgen Sie meine visuelle Reise auf Instagram.",
+    "bluesky": "Kontaktieren Sie mich auf Bluesky.",
+    "threads": "Nehmen Sie an Gesprächen auf Threads teil.",
+    "discord": "Treten Sie meinem Discord-Server bei und chatten Sie mit anderen.",
+    "mastodon": "Finden Sie mich auf Mastodon.",
+    "twitch": "Schauen Sie meine Live-Streams auf Twitch.",
+    "tiktok": "Sehen Sie meine Kurzvideos auf TikTok."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "description": "Wir stehen für Fragen, Feedback oder Kooperationsmöglichkeiten zur Verfügung. Lassen Sie uns wissen, wie wir Ihnen helfen können!",
+    "details": {
+      "discord": "Discord:",
+      "email": "E-Mail:",
+      "steam": "Steam:"
+    },
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "subject": "Betreff",
+      "message": "Geben Sie Ihre Nachricht hier ein.",
+      "send": "Nachricht senden",
+      "messagePlaceholder": "Geben Sie Ihre Nachricht hier ein."
+    },
+    "footer": {
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "blog": "Blog",
+      "help": "Hilfe"
+    }
+  }
+}

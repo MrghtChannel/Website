@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "social": {
+    "title": "My Social Media",
+    "description": "I’d appreciate it if you’d follow me. Thank you!",
+    "twitter": "Follow my latest news and announcements on Twitter.",
+    "telegram": "Join my Telegram channel for quick updates.",
+    "facebook": "Stay connected with me on Facebook.",
+    "github": "Follow my projects on GitHub.",
+    "reddit": "Join the discussions on Reddit.",
+    "instagram": "Follow my visual journey on Instagram.",
+    "bluesky": "Connect with me on Bluesky.",
+    "threads": "Join the conversations on Threads.",
+    "discord": "Join my Discord server and chat with others.",
+    "mastodon": "Find me on Mastodon.",
+    "twitch": "Watch my live streams on Twitch.",
+    "tiktok": "Watch my short videos on TikTok."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "We’re available for questions, feedback, or collaboration opportunities. Let us know how we can help!",
+    "details": {
+      "discord": "Discord:",
+      "email": "Email:",
+      "steam": "Steam:"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Enter your message here.",
+      "send": "Send Message",
+      "messagePlaceholder": "Enter your message here."
+    },
+    "footer": {
+      "about": "About Us",
+      "contact": "Contact",
+      "blog": "Blog",
+      "help": "Help"
+    }
+  }
+}

@@ -1,12 +1,15 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import en from './app/language/en.json';
-import ua from './app/language/ua.json';
-import de from './app/language/de.json';
-import pl from './app/language/pl.json';
-import ru from './app/language/ru.json';
+import i18n from 'i18next'
+import { initReactI18next } from 'react-i18next'
+import LanguageDetector from 'i18next-browser-languagedetector'
+
+import en from '@/language/en.json'
+import ua from '@/language/ua.json'
+import de from '@/language/de.json'
+import pl from '@/language/pl.json'
+import ru from '@/language/ru.json'
 
 i18n
+  .use(LanguageDetector) 
   .use(initReactI18next)
   .init({
     resources: {
@@ -16,9 +19,12 @@ i18n
       pl: { translation: pl },
       ru: { translation: ru },
     },
-    lng: 'en',
-    fallbackLng: 'en',
+    fallbackLng: 'en', 
+    detection: {
+      order: ['path', 'localStorage', 'navigator'], 
+      caches: ['localStorage'],
+    },
     interpolation: { escapeValue: false },
-  });
+  })
 
-export default i18n;
+export default i18n
