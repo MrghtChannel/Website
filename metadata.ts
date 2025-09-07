@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "MrghtChannel | Portfolio",
     description: "MrghtChannel | Portfolio",
     url: "https://mrghtchannel.vercel.app/",
-    site_name: "MrghtChannel",
+    siteName: "MrghtChannel",
     images: [
       {
         url: "https://mrghtchannel.vercel.app/og-image.jpg",
