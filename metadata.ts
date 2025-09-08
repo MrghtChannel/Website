@@ -1,14 +1,14 @@
 export const metadata = {
   title: "MrghtChannel | Portfolio",
   description: "MrghtChannel | Portfolio",
-  url: "https://mrghtchannel.vercel.app/",
+  url: "https://yourdomain.com",
   siteName: "MrghtChannel Portfolio",
   image: "/og-image.jpg",
   twitterHandle: "@MrghtChannel",
   openGraph: {
     title: "MrghtChannel | Portfolio",
     description: "Explore the creative portfolio of MrghtChannel, showcasing innovative projects and designs.",
-    url: "https://mrghtchannel.vercel.app/",
+    url: "https://yourdomain.com",
     siteName: "MrghtChannel Portfolio",
     images: [
       {
