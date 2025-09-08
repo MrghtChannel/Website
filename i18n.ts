@@ -1,15 +1,15 @@
-import i18n from 'i18next'
-import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
 
-import en from '@/language/en.json'
-import ua from '@/language/ua.json'
-import de from '@/language/de.json'
-import pl from '@/language/pl.json'
-import ru from '@/language/ru.json'
+import en from '@/language/en.json';
+import ua from '@/language/ua.json';
+import de from '@/language/de.json';
+import pl from '@/language/pl.json';
+import ru from '@/language/ru.json';
 
 i18n
-  .use(LanguageDetector) 
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
@@ -19,12 +19,14 @@ i18n
       pl: { translation: pl },
       ru: { translation: ru },
     },
-    fallbackLng: 'en', 
+    fallbackLng: 'en',
     detection: {
-      order: ['path', 'localStorage', 'navigator'], 
-      caches: ['localStorage'],
+      order: ['localStorage', 'cookie', 'navigator'],
+      caches: ['localStorage', 'cookie'],
+      lookupLocalStorage: 'i18nextLng',
+      lookupCookie: 'NEXT_LOCALE',
     },
     interpolation: { escapeValue: false },
-  })
+  });
 
-export default i18n
+export default i18n;

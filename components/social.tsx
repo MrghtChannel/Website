@@ -2,18 +2,20 @@
 
 import { ArrowUpRight } from "lucide-react";
 import { useSocialLinks, SocialItem } from "@/lib/social";
+import { useTranslation } from "react-i18next";
 
 const Social = () => {
   const socialLinks = useSocialLinks();
+  const { t } = useTranslation();
 
   return (
     <section className="py-32">
       <div className="text-center max-w-2xl mx-auto">
         <h2 className="mb-5 text-2xl font-semibold md:text-3xl">
-          My Social Media
+          {t("social.title")}
         </h2>
         <p className="font-medium text-muted-foreground md:text-xl">
-          I would appreciate it if you followed them. Thank you!
+          {t("social.description")}
         </p>
       </div>
 

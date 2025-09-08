@@ -7,42 +7,73 @@
   },
   "social": {
     "title": "Meine sozialen Netzwerke",
-    "description": "Ich würde mich freuen, wenn Sie mir folgen. Vielen Dank!",
+    "description": "Ich würde mich freuen, wenn Sie mir folgen. Danke!",
     "twitter": "Folgen Sie meinen neuesten Nachrichten und Ankündigungen auf Twitter.",
     "telegram": "Treten Sie meinem Telegram-Kanal für schnelle Updates bei.",
-    "facebook": "Bleiben Sie mit mir auf Facebook in Kontakt.",
-    "github": "Folgen Sie meinen Projekten auf GitHub.",
-    "reddit": "Beteiligen Sie sich an Diskussionen auf Reddit.",
-    "instagram": "Verfolgen Sie meine visuelle Reise auf Instagram.",
+    "facebook": "Bleiben Sie mit mir auf Facebook in Verbindung.",
+    "github": "Folgen Sie meinem GitHub und meinen Projekten.",
+    "reddit": "Nehmen Sie an Diskussionen auf Reddit teil.",
+    "instagram": "Folgen Sie meiner visuellen Reise auf Instagram.",
     "bluesky": "Kontaktieren Sie mich auf Bluesky.",
-    "threads": "Nehmen Sie an Gesprächen auf Threads teil.",
+    "threads": "Nehmen Sie an Gesprächen in Threads teil.",
     "discord": "Treten Sie meinem Discord-Server bei und chatten Sie mit anderen.",
     "mastodon": "Finden Sie mich auf Mastodon.",
-    "twitch": "Schauen Sie meine Live-Streams auf Twitch.",
-    "tiktok": "Sehen Sie meine Kurzvideos auf TikTok."
+    "twitch": "Sehen Sie meine Live-Streams auf Twitch.",
+    "tiktok": "Sehen Sie meine kurzen Videos auf TikTok."
   },
   "contact": {
     "title": "Kontaktieren Sie uns",
-    "description": "Wir stehen für Fragen, Feedback oder Kooperationsmöglichkeiten zur Verfügung. Lassen Sie uns wissen, wie wir Ihnen helfen können!",
-    "details": {
-      "discord": "Discord:",
-      "email": "E-Mail:",
-      "steam": "Steam:"
-    },
+    "detailsTitle": "Zusätzliche Informationen",
+    "description": "Wir stehen für Fragen, Feedback oder Kooperationsmöglichkeiten zur Verfügung. Lassen Sie uns wissen, wie wir helfen können!",
+    "discordLabel": "Discord",
+    "emailLabel": "E-Mail",
+    "steamLabel": "Steam",
     "form": {
       "firstName": "Vorname",
       "lastName": "Nachname",
-      "email": "E-Mail",
+      "email": "Email",
       "subject": "Betreff",
-      "message": "Geben Sie Ihre Nachricht hier ein.",
+      "message": "Geben Sie hier Ihre Nachricht ein.",
       "send": "Nachricht senden",
-      "messagePlaceholder": "Geben Sie Ihre Nachricht hier ein."
+      "messagePlaceholder": "Geben Sie hier Ihre Nachricht ein."
     },
     "footer": {
       "about": "Über uns",
       "contact": "Kontakt",
       "blog": "Blog",
       "help": "Hilfe"
+    }
+  },
+  "projects": {
+    "title": "Meine GitHub-Projekte",
+    "description": "Neueste Repositories aus meinem GitHub-Profil.",
+    "loading": "Projekte werden geladen...",
+    "publicArchive": "Öffentliches Archiv"
+  },
+  "theme": {
+    "toggle": "Thema wechseln",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "cookies": {
+    "title": "Wir verwenden Cookies",
+    "description": "Wir verwenden Cookies, um Ihnen die beste Erfahrung auf unserer Website zu bieten. Weitere Informationen über die Verwendung von Cookies finden Sie in unserer Cookie-Richtlinie.",
+    "agree_text": "Durch Klicken",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "learn_more": "Mehr erfahren"
+  },
+  "page": {
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "description": "Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern.",
+      "types": "Arten von Cookies",
+      "essential": "Essenzielle Cookies: erforderlich für die Funktionalität der Website.",
+      "analytics": "Analyse-Cookies: helfen uns zu verstehen, wie Benutzer mit der Website interagieren.",
+      "marketing": "Marketing-Cookies: werden verwendet, um personalisierte Werbung anzuzeigen.",
+      "managing": "Cookies verwalten",
+      "managing_description": "Sie können Ihre Cookie-Einstellungen in den Browsereinstellungen verwalten."
     }
   }
 }

@@ -15,9 +15,10 @@ import {
   CursorProvider,
 } from '@/components/ui/animated-cursor';
 
+import { CookieConsent } from "@/components/cookie-consent";
 import { metadata } from "@/metadata";
 import { useMediaQuery } from "react-responsive";
-import { useState } from "react"; 
+import { useState } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,17 +36,59 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   const isMobile = useMediaQuery({ maxWidth: 768 });
-  const [isLoading, setIsLoading] = useState(true); 
+  const [isLoading, setIsLoading] = useState(true);
 
   const handlePreloaderFinish = () => {
     setIsLoading(false);
   };
+
+  const Content = (
+    <>
+      <NavBar />
+      {children}
+      <Social />
+      <Footer />
+    </>
+  );
 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
         <title>{String(metadata.title)}</title>
         <meta name="description" content={metadata.description ?? undefined} />
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta property="og:url" content={metadata.openGraph.url} />
+        <meta property="og:site_name" content={metadata.openGraph.siteName} />
+        <meta property="og:locale" content={metadata.openGraph.locale} />
+        <meta property="og:type" content={metadata.openGraph.type} />
+        {metadata.openGraph.images.map((image, index) => (
+          <meta
+            key={index}
+            property="og:image"
+            content={`${metadata.url}${image.url}`}
+          />
+        ))}
+        {metadata.openGraph.images.map((image, index) => (
+          <meta key={`og:image:width:${index}`} property="og:image:width" content={String(image.width)} />
+        ))}
+        {metadata.openGraph.images.map((image, index) => (
+          <meta key={`og:image:height:${index}`} property="og:image:height" content={String(image.height)} />
+        ))}
+        {metadata.openGraph.images.map((image, index) => (
+          <meta key={`og:image:alt:${index}`} property="og:image:alt" content={image.alt} />
+        ))}
+        <meta name="twitter:card" content={metadata.twitter.card} />
+        <meta name="twitter:title" content={metadata.twitter.title} />
+        <meta name="twitter:description" content={metadata.twitter.description} />
+        <meta name="twitter:creator" content={metadata.twitter.creator} />
+        {metadata.twitter.images.map((image, index) => (
+          <meta
+            key={`twitter:image:${index}`}
+            name="twitter:image"
+            content={`${metadata.url}${image}`}
+          />
+        ))}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ThemeProvider
@@ -57,10 +100,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           {isLoading ? (
             <Preloader onFinish={handlePreloaderFinish} />
           ) : isMobile ? (
-            <>
-              <NavBar />
-              {children}
-            </>
+            Content
           ) : (
             <CursorProvider>
               <Cursor>
@@ -84,11 +124,20 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   />
                 </div>
               </CursorFollow>
-              <NavBar />
-              {children}
-              <Social />
-              <Footer />
+              {Content}
             </CursorProvider>
+          )}
+
+          {!isLoading && (
+            <CookieConsent
+              variant="default"
+              onAcceptCallback={() => {
+                console.log("Cookies accepted");
+              }}
+              onDeclineCallback={() => {
+                console.log("Cookies declined");
+              }}
+            />
           )}
         </ThemeProvider>
       </body>

@@ -22,7 +22,11 @@ export function middleware(req: NextRequest) {
   );
 
   if (pathnameIsMissingLocale) {
-    const locale = defaultLocale;
+    const localeFromCookie = req.cookies.get('NEXT_LOCALE')?.value;
+    const locale = locales.includes(localeFromCookie || '') 
+      ? localeFromCookie 
+      : defaultLocale;
+
     return NextResponse.redirect(
       new URL(`/${locale}${pathname}`, req.url)
     );

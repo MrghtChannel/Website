@@ -6,29 +6,28 @@
     "contact": "Contact"
   },
   "social": {
-    "title": "My Social Media",
-    "description": "I’d appreciate it if you’d follow me. Thank you!",
+    "title": "My Social Networks",
+    "description": "I’d appreciate it if you follow me. Thank you!",
     "twitter": "Follow my latest news and announcements on Twitter.",
     "telegram": "Join my Telegram channel for quick updates.",
     "facebook": "Stay connected with me on Facebook.",
-    "github": "Follow my projects on GitHub.",
-    "reddit": "Join the discussions on Reddit.",
+    "github": "Follow my GitHub and projects.",
+    "reddit": "Join discussions on Reddit.",
     "instagram": "Follow my visual journey on Instagram.",
     "bluesky": "Connect with me on Bluesky.",
-    "threads": "Join the conversations on Threads.",
+    "threads": "Join conversations on Threads.",
     "discord": "Join my Discord server and chat with others.",
     "mastodon": "Find me on Mastodon.",
     "twitch": "Watch my live streams on Twitch.",
     "tiktok": "Watch my short videos on TikTok."
   },
   "contact": {
-    "title": "Get in Touch",
-    "description": "We’re available for questions, feedback, or collaboration opportunities. Let us know how we can help!",
-    "details": {
-      "discord": "Discord:",
-      "email": "Email:",
-      "steam": "Steam:"
-    },
+    "title": "Contact Us",
+    "detailsTitle": "Additional Information",
+    "description": "We are available for questions, feedback, or collaboration opportunities. Let us know how we can help!",
+    "discordLabel": "Discord",
+    "emailLabel": "Email",
+    "steamLabel": "Steam",
     "form": {
       "firstName": "First Name",
       "lastName": "Last Name",
@@ -39,10 +38,42 @@
       "messagePlaceholder": "Enter your message here."
     },
     "footer": {
-      "about": "About Us",
+      "about": "About",
       "contact": "Contact",
       "blog": "Blog",
       "help": "Help"
+    }
+  },
+  "projects": {
+    "title": "My GitHub Projects",
+    "description": "Latest repositories from my GitHub profile.",
+    "loading": "Loading projects...",
+    "publicArchive": "Public Archive"
+  },
+  "theme": {
+    "toggle": "Toggle Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "cookies": {
+    "title": "We Use Cookies",
+    "description": "We use cookies to provide you with the best experience on our site. For more information about our cookie usage, please see our cookie policy.",
+    "agree_text": "By clicking",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learn_more": "Learn More"
+  },
+  "page": {
+    "cookies": {
+      "title": "Cookie Policy",
+      "description": "This website uses cookies to enhance your experience.",
+      "types": "Types of Cookies",
+      "essential": "Essential cookies: required for website functionality.",
+      "analytics": "Analytical cookies: help us understand how users interact with the site.",
+      "marketing": "Marketing cookies: used to display personalized advertisements.",
+      "managing": "Managing Cookies",
+      "managing_description": "You can manage your cookie settings in your browser settings."
     }
   }
 }
