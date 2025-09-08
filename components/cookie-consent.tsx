@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 export function CookieConsent({
   variant = "default",
@@ -69,9 +70,9 @@ export function CookieConsent({
                 </span>
               </span>
               <br />
-              <a href="/cookies" className="text-xs underline">
+              <Link href="/cookies" className="text-xs underline">
                 {t("cookies.learn_more")}
-              </a>
+              </Link>
             </p>
           </div>
           <div className="grid grid-cols-2 items-center gap-2 p-3 sm:p-4 sm:py-5 border-t border-border dark:bg-background/20">
