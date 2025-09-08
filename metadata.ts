@@ -1,14 +1,14 @@
 export const metadata = {
   title: "MrghtChannel | Portfolio",
   description: "MrghtChannel | Portfolio",
-  url: "https://yourdomain.com",
+  url: "https://mrghtchannel.vercel.app/",
   siteName: "MrghtChannel Portfolio",
   image: "/og-image.jpg",
   twitterHandle: "@MrghtChannel",
   openGraph: {
     title: "MrghtChannel | Portfolio",
-    description: "Explore the creative portfolio of MrghtChannel, showcasing innovative projects and designs.",
-    url: "https://yourdomain.com",
+    description: "MrghtChannel | Portfolio",
+    url: "https://mrghtchannel.vercel.app/",
     siteName: "MrghtChannel Portfolio",
     images: [
       {
@@ -24,7 +24,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "MrghtChannel | Portfolio",
-    description: "Explore the creative portfolio of MrghtChannel.",
+    description: "MrghtChannel | Portfolio",
     images: ["/og-image.jpg"],
     creator: "@MrghtChannel",
   },
