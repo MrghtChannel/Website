@@ -2,7 +2,7 @@ export const metadata = {
   title: "MrghtChannel | Portfolio",
   description: "MrghtChannel | Portfolio",
   url: "https://mrghtchannel.vercel.app",
-  siteName: "MrghtChannel Portfolio",
+  siteName: "MrghtChannel | Portfolio",
   image: "/og-image.jpg",
   twitterHandle: "@MrghtChannel",
   openGraph: {
